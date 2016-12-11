@@ -28,6 +28,9 @@ namespace CSharpTutorial2
          Balance = 22.2f;
       }
 
+      // this method returns two values
+      // 1) a float value 
+      // 2) the name of the bank user as OUT parameter of the prameters
       public float GetCredit(out string name)
       {
          name = this.name;
